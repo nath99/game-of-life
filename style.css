@@ -1,0 +1,42 @@
+.game-container {
+  width: 500px;
+  height: 500px;
+  border:1px solid #ccc;
+}
+
+#game {
+  height:100%;
+  width:100%;
+}
+
+.game-controls {
+  margin-top:10px;
+}
+
+.game-controls button {
+  border: 1px solid #ccc;
+  background: none;
+  padding: 12px 8px;
+  margin-right: 10px;
+  width: 100px;
+  border-radius: 4px;
+}
+
+
+.game-controls button.start {
+  background-color: #d4ffcf;
+  border-color: green;
+  color: green;
+}
+
+.game-controls button.stop {
+  background-color: #f7c3c3;
+  border-color: red;
+  color: red;
+}
+
+.game-controls button.next {
+  border-color: #5353b7;
+  color: #4d4df3;
+  background-color: #c6ebf7;
+}
